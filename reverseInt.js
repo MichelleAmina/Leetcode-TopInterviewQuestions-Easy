@@ -41,9 +41,6 @@ var reverse = function(x) {
         res = parseInt(String(x).split('').reverse().join(''));
     }
 
-    // if (res > Math.pow(2, 31) - 1 || res < -Math.pow(2, 31)) {
-    //     return 0;
-    // }
 
     return res;    
 };
